@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/intel/openvino_2024.6.0/runtime/include -I/home/auto/Desktop/yolov8_pose-/linuxSDK_V2.1.0.41/include -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/opt/intel/openvino_2024/runtime/include -I/home/auto/linuxSDK_V2.1.0.20/include -isystem /usr/include/opencv4
 
 CXX_FLAGS = -std=gnu++14
 

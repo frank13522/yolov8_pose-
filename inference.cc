@@ -67,6 +67,8 @@ namespace yolo
 		compiled_model_ = core.compile_model(model, driver,
 		 ov::hint::performance_mode(ov::hint::PerformanceMode::THROUGHPUT)//THROUGHPUT LATENCY
 		//,ov::hint::model_priority(ov::hint::Priority::MEDIUM)
+		,ov::hint::execution_mode(ov::hint::ExecutionMode::PERFORMANCE)
+		//, ov::hint::execution_mode(ov::hint::ExecutionMode::ACCURACY)
 		 );
 //compiled_model_ = core.compile_model(model, "GPU", ov::hint::performance_mode(ov::hint::PerformanceMode::LATENCY));
 		//Ainference_request_ = compiled_model_.create_infer_request(); 

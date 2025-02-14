@@ -143,8 +143,8 @@ detect: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.5.4d
 detect: /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.5.4d
 detect: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.5.4d
 detect: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.5.4d
-detect: /opt/intel/openvino_2024.6.0/runtime/lib/intel64/libopenvino.so
-detect: ../linuxSDK_V2.1.0.41/lib/x64/libMVSDK.so
+detect: /opt/intel/openvino_2024/runtime/lib/intel64/libopenvino.so
+detect: /home/auto/linuxSDK_V2.1.0.20/lib/x64/libMVSDK.so
 detect: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.5.4d
 detect: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.5.4d
 detect: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.5.4d
